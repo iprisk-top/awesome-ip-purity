@@ -44,6 +44,7 @@ A curated list of tools and resources for IP purity detection, proxy detection, 
 - 📖 [安全学院 Q&A](https://iprisk.top/academy)
 - 📖 [关于 IPRisk.top](https://iprisk.top/about)
 - 🤖 [Telegram 机器人 — 发送 IP 即查纯净度](https://t.me/iprisk_top_bot)
+- 📢 [Telegram 频道 — 安全上网指南](https://t.me/iprisk_top_channel)
 
 ---
 
