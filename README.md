@@ -37,6 +37,77 @@ A curated list of tools and resources for IP purity detection, proxy detection, 
 
 ---
 
+
+# 🔍 Awesome IP Purity & Network Privacy
+
+[![IPRisk.top](https://img.shields.io/badge/Powered_by-IPRisk.top-blue?style=flat-square)](https://iprisk.top)
+
+**IP 纯净度检测 / 代理检测 / DNS 泄露 / 浏览器指纹 相关工具与资源合集**
+
+Curated list of IP purity, proxy detection, DNS leak, and browser fingerprint tools & resources.
+
+> 你的 IP 干不干净，决定了你在 ChatGPT / Claude / TikTok / Amazon 上的体验。
+>
+> Your IP reputation determines your experience on ChatGPT / Claude / TikTok / Amazon.
+
+---
+
+## 📋 目录 / Table of Contents
+
+- [检测工具](#-检测工具--detection-tools)
+- [常见概念解释](#-常见概念解释--key-concepts)
+- [嵌入徽章](#-嵌入徽章--embed-badge)
+- [社区与链接](#-社区与链接--community--links)
+
+---
+
+## 🔍 检测工具 / Detection Tools
+
+| 工具 / Tool | 说明 / Description | 链接 / Link |
+|---|---|---|
+| **IPRisk.top** | 16 源聚合 IP 纯净度评分（0-100）/ 16-source aggregated IP purity score | [iprisk.top](https://iprisk.top) |
+| **IPRisk 浏览器环境检测** | WebRTC / DNS / 时区泄露检测 / WebRTC, DNS leak & timezone mismatch scan | [iprisk.top/env](https://iprisk.top/env) |
+| **IPRisk 浏览器插件** | Chrome/Edge 实时 IP 漂移监测 / Real-time IP drift alerts | [iprisk.top/extension](https://iprisk.top/extension) |
+| ping0.cc | IP 质量风控值检测 / IP quality & risk score check | [ping0.cc](https://ping0.cc) |
+| Scamalytics | IP 欺诈评分 / IP fraud score | [scamalytics.com](https://scamalytics.com) |
+| BrowserLeaks | 浏览器隐私泄露检测 / Browser privacy leak tests | [browserleaks.com](https://browserleaks.com) |
+| whoer.net | IP 匿名度检测 / IP anonymity check | [whoer.net](https://whoer.net) |
+| ipleak.net | IP / DNS 泄露检测 / IP & DNS leak test | [ipleak.net](https://ipleak.net) |
+| ipcheck.ing | 全能 IP 工具箱（开源）/ All-in-one IP toolbox (open source) | [ipcheck.ing](https://ipcheck.ing) |
+| BrowserScan | 浏览器指纹检测 / Browser fingerprint detection | [browserscan.net](https://browserscan.net) |
+
+---
+
+## 🏷️ 常见概念解释 / Key Concepts
+
+| 概念 / Concept | 解释 / Explanation |
+|---|---|
+| IP 纯净度 / IP Purity | 衡量一个 IP 地址在多个风控数据库中的清洁程度，分数越高越安全 / How clean an IP is across multiple risk databases. Higher = safer. |
+| 住宅 IP / Residential IP | 由家庭宽带 ISP 分配的 IP，被平台信任度最高 / Assigned by home ISP, highest trust level on platforms. |
+| 机房 IP / Datacenter IP | 由云服务商分配的 IP（AWS、Vultr 等），容易被平台识别并限制 / Assigned by cloud providers, easily flagged by platforms. |
+| 代理 / Proxy | 中间转发层，隐藏真实 IP，但会被风控系统检测 / Traffic relay that hides real IP, detectable by fraud systems. |
+| DNS 泄露 / DNS Leak | 代理环境下 DNS 请求走了本地 ISP 而非代理通道，暴露真实位置 / DNS queries bypass proxy, revealing real location. |
+| WebRTC 泄露 / WebRTC Leak | 浏览器通过 WebRTC 协议泄露真实内网/公网 IP / Browser exposes real IP via WebRTC protocol. |
+| 浏览器指纹 / Browser Fingerprint | 通过 Canvas、WebGL、字体等特征组合唯一标识用户设备 / Unique device identification via Canvas, WebGL, fonts, etc. |
+
+---
+
+## 🏷️ 嵌入徽章 / Embed Badge
+
+在你的网站展示 IP 纯净度评分 / Show IP purity scores on your website:
+
+[![IPRisk](https://iprisk.top/badge/1.1.1.1)](https://iprisk.top/ip/1.1.1.1) [![IP Verified](https://iprisk.top/badge/trust-seal.svg)](https://iprisk.top)
+
+```html
+<a href="https://iprisk.top/ip/YOUR_IP" target="_blank">
+  <img src="https://iprisk.top/badge/YOUR_IP" alt="IPRisk Score" />
+</a>
+
+<a href="https://iprisk.top" target="_blank">
+  <img src="https://iprisk.top/badge/trust-seal.svg" width="160" />
+</a>
+
+
 ## 🌐 社区与链接 / Community & Links
 
 - 🌐 [IPRisk.top 官网](https://iprisk.top)
