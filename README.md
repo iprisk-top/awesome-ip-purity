@@ -38,6 +38,17 @@ Curated list of IP purity, proxy detection, DNS leak, and browser fingerprint to
 
 ---
 
+## 🛡️ 代理方案推荐 / Proxy Provider Guide
+
+IP 不够干净？我们梳理了主流住宅代理、住宅 IP VPS、指纹浏览器的优势与局限，配合 IPRisk 16 源引擎自己验证 IP 纯净度。
+
+Not clean enough? We break down leading residential proxies, residential IP VPS, and anti-detect browsers — verify IP purity yourself with the IPRisk 16-source engine.
+
+👉 [代理方案推荐 / Proxy Provider Guide](https://iprisk.top/proxy)
+
+---
+
+
 ## 🏷️ 常见概念解释 / Key Concepts
 
 | 概念 / Concept | 解释 / Explanation |
