@@ -49,7 +49,7 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 
 | 使用方式 / Access | 说明 / Description |
 |---|---|
-| 网页检测 / Web check | 未登录用户每小时可免费检测 10 次，登录后每小时可免费检测 30 次 / Visitors receive 10 free checks per hour; signed-in users receive 30 |
+| 网页检测 / Web check | 未登录用户滚动 24 小时可免费检测 10 次，登录后可免费检测 30 次 / Visitors receive 10 free checks per rolling 24 hours; signed-in users receive 30 |
 | 专业功能 / Professional features | 订阅用户可使用批量查询、API 和更高用量 / Subscribers can use batch queries, API access, and higher usage allowances |
 
 免费与订阅用户使用相同的数据来源和评分标准。
