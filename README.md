@@ -14,11 +14,14 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 
 ## 📋 目录 / Table of Contents
 
-- [检测工具](#-检测工具--detection-tools)
-- [代理方案参考](#-代理方案参考--proxy-provider-guide)
-- [常见概念解释](#-常见概念解释--key-concepts)
-- [嵌入徽章](#-嵌入徽章--embed-badge)
-- [社区与链接](#-社区与链接--community--links)
+- [🔍 Awesome IP Purity \& Network Privacy](#-awesome-ip-purity--network-privacy)
+  - [📋 目录 / Table of Contents](#-目录--table-of-contents)
+  - [🔍 检测工具 / Detection Tools](#-检测工具--detection-tools)
+  - [📊 使用方式 / Ways to Use](#-使用方式--ways-to-use)
+  - [🛡️ 代理方案参考 / Proxy Provider Guide](#️-代理方案参考--proxy-provider-guide)
+  - [🏷️ 常见概念解释 / Key Concepts](#️-常见概念解释--key-concepts)
+  - [🏷️ 嵌入徽章 / Embed Badge](#️-嵌入徽章--embed-badge)
+  - [🌐 社区与链接 / Community \& Links](#-社区与链接--community--links)
 
 ---
 
@@ -26,9 +29,12 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 
 | 工具 / Tool | 说明 / Description | 链接 / Link |
 |---|---|---|
-| **IPRisk.top** | 16 类来源聚合 IP 纯净度评分（0-100），保留评分明细和来源标签 / 16-source-category IP reputation score with breakdown and source details | [iprisk.top](https://iprisk.top) |
-| **IPRisk 浏览器环境检测** | 国内外出口、WebRTC、DNS、时区、语言和浏览器指纹检测 / Domestic/global exits, WebRTC, DNS, timezone, language, and browser signal scan | [iprisk.top/env](https://iprisk.top/env) |
+| **IPRisk.top** | 16 个独立来源交叉检测 IP 纯净度评分（0-100），保留评分明细和来源标签 / Cross-checks 16 independent sources for a 0-100 IP reputation score with source-level details | [iprisk.top](https://iprisk.top) |
+| **IPRisk 浏览器环境检测** | 出口 IP、WebRTC、DNS、时区、语言和浏览器环境一致性检测 / Exit IP, WebRTC, DNS, timezone, language, and browser-environment consistency checks | [iprisk.top/env](https://iprisk.top/env) |
 | **IPRisk Sentinel 浏览器插件** | Chrome/Edge 插件，持续比对出口 IP、DNS 与 WebRTC 基准 / Chrome/Edge extension for exit IP, DNS, and WebRTC baseline monitoring | [iprisk.top/extension](https://iprisk.top/extension) |
+| **IPRisk 批量查询** | 支持批量提交 IP、查看任务进度和导出检测结果 / Submit IPs in batches, track job progress, and export results | [iprisk.top/batch](https://iprisk.top/batch) |
+| **IPRisk API** | 面向系统集成和自动化检测的 REST API，返回统一的结构化结果 / REST API for system integration and automated checks with consistent structured results | [iprisk.top/api](https://iprisk.top/api) |
+| **IPRisk 控制台** | 管理 API Key、套餐额度、批量任务、调用和账单 / Manage API keys, plan credits, batch jobs, usage, and billing | [iprisk.top/console](https://iprisk.top/console) |
 | ping0.cc | IP 质量风控值检测 / IP quality & risk score check | [ping0.cc](https://ping0.cc) |
 | Scamalytics | IP 欺诈评分 / IP fraud score | [scamalytics.com](https://scamalytics.com) |
 | BrowserLeaks | 浏览器隐私泄露检测 / Browser privacy leak tests | [browserleaks.com](https://browserleaks.com) |
@@ -36,6 +42,19 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 | ipleak.net | IP / DNS 泄露检测 / IP & DNS leak test | [ipleak.net](https://ipleak.net) |
 | ipcheck.ing | 全能 IP 工具箱（开源）/ All-in-one IP toolbox (open source) | [ipcheck.ing](https://ipcheck.ing) |
 | BrowserScan | 浏览器指纹检测 / Browser fingerprint detection | [browserscan.net](https://browserscan.net) |
+
+---
+
+## 📊 使用方式 / Ways to Use
+
+| 使用方式 / Access | 说明 / Description |
+|---|---|
+| 网页检测 / Web check | 未登录用户每小时可免费检测 10 次，登录后每小时可免费检测 30 次 / Visitors receive 10 free checks per hour; signed-in users receive 30 |
+| 专业功能 / Professional features | 订阅用户可使用批量查询、API 和更高用量 / Subscribers can use batch queries, API access, and higher usage allowances |
+
+免费与订阅用户使用相同的数据来源和评分标准。
+
+Free and subscribed users receive the same data sources and scoring standards.
 
 ---
 
@@ -89,11 +108,10 @@ When an IP is unstable or returns multiple risk signals, compare residential pro
 - 🔍 [浏览器环境检测](https://iprisk.top/env)
 - 🧩 [IPRisk Sentinel 浏览器插件](https://iprisk.top/extension)
 - 🛡️ [代理方案参考 / Proxy Guide](https://iprisk.top/proxy)
+- 📊 [批量查询](https://iprisk.top/batch)
+- 🔌 [API 文档](https://iprisk.top/api)
+- 🖥️ [控制台](https://iprisk.top/console)
 - 📖 [安全学院 Q&A](https://iprisk.top/academy)
 - 📖 [关于 IPRisk.top](https://iprisk.top/about)
 - 🤖 [Telegram 机器人 — 发送 IP 即查纯净度](https://t.me/iprisk_top_bot)
 - 📢 [Telegram 频道 — IP 情报与网络排查](https://t.me/iprisk_top_channel)
-
----
-
-*欢迎提交 PR 补充更多工具和资源。/ PRs welcome to add more tools and resources.*
