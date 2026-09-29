@@ -38,6 +38,7 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 | ping0.cc | IP 质量风控值检测 / IP quality & risk score check | [ping0.cc](https://ping0.cc) |
 | Scamalytics | IP 欺诈评分 / IP fraud score | [scamalytics.com](https://scamalytics.com) |
 | BrowserLeaks | 浏览器隐私泄露检测 / Browser privacy leak tests | [browserleaks.com](https://browserleaks.com) |
+| **XiuStore AI IP Check** | 对照 Claude、ChatGPT、Grok、Perplexity 和 Cloudflare 看到的出口 IP，并单独检查 WebRTC / Compare the exit IPs seen by Claude, ChatGPT, Grok, Perplexity, and Cloudflare, with a separate WebRTC check | [store.xiu.ai/en/ai-ip](https://store.xiu.ai/en/ai-ip/) |
 | whoer.net | IP 匿名度检测 / IP anonymity check | [whoer.net](https://whoer.net) |
 | ipleak.net | IP / DNS 泄露检测 / IP & DNS leak test | [ipleak.net](https://ipleak.net) |
 | ipcheck.ing | 全能 IP 工具箱（开源）/ All-in-one IP toolbox (open source) | [ipcheck.ing](https://ipcheck.ing) |
