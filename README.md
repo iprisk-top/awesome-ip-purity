@@ -9,6 +9,8 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 > IP 信誉、出口地区、DNS、WebRTC、时区和浏览器环境，都会影响你排查 ChatGPT / Claude / TikTok / Amazon 等平台问题时的判断。
 >
 > IP reputation, exit region, DNS, WebRTC, timezone, and browser environment all matter when troubleshooting platforms such as ChatGPT / Claude / TikTok / Amazon.
+>
+> 需要重复检查时，IPRisk Sentinel 可查询当前 IP 纯净度与常用平台适用性，需要详细证据时可带入 IP 前往网站深度检测，并自动监测浏览器网络环境；IPRisk Sentinel combines IP checks, common-platform guidance, detailed website checks, and automatic browser-environment monitoring.
 
 ---
 
@@ -31,7 +33,7 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 |---|---|---|
 | **IPRisk.top** | 16 个独立来源交叉检测 IP 纯净度评分（0-100），保留评分明细和来源标签 / Cross-checks 16 independent sources for a 0-100 IP reputation score with source-level details | [iprisk.top](https://iprisk.top) |
 | **IPRisk 浏览器环境检测** | 出口 IP、WebRTC、DNS、时区、语言和浏览器环境一致性检测 / Exit IP, WebRTC, DNS, timezone, language, and browser-environment consistency checks | [iprisk.top/env](https://iprisk.top/env) |
-| **IPRisk Sentinel 浏览器插件** | Chrome/Edge 插件，持续比对出口 IP、DNS 与 WebRTC 基准 / Chrome/Edge extension for exit IP, DNS, and WebRTC baseline monitoring | [iprisk.top/extension](https://iprisk.top/extension) |
+| **IPRisk Sentinel 浏览器插件** | Chrome 插件，可查询当前 IP 纯净度与常用平台适用性，支持带入 IP 前往网站深度检测，并自动监测浏览器网络环境 / Chrome extension for IP checks, common-platform guidance, detailed website checks, and automatic browser monitoring | [iprisk.top/extension](https://iprisk.top/extension) |
 | **IPRisk 批量查询** | 支持批量提交 IP、查看任务进度和导出检测结果 / Submit IPs in batches, track job progress, and export results | [iprisk.top/batch](https://iprisk.top/batch) |
 | **IPRisk API** | 面向系统集成和自动化检测的 REST API，返回统一的结构化结果 / REST API for system integration and automated checks with consistent structured results | [iprisk.top/api](https://iprisk.top/api) |
 | **IPRisk 控制台** | 管理 API Key、套餐额度、批量任务、调用和账单 / Manage API keys, plan credits, batch jobs, usage, and billing | [iprisk.top/console](https://iprisk.top/console) |
@@ -50,6 +52,7 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 | 使用方式 / Access | 说明 / Description |
 |---|---|
 | 网页检测 / Web check | 未登录用户滚动 24 小时可免费检测 10 次，登录后可免费检测 30 次 / Visitors receive 10 free checks per rolling 24 hours; signed-in users receive 30 |
+| 浏览器插件 / Browser extension | 连接账号后查询当前 IP 纯净度和常用平台适用性，支持带入 IP 前往网站深度检测，并自动监测浏览器网络环境 / Check current IP cleanliness and common-platform suitability, open a detailed website check, and monitor the browser environment automatically |
 | 专业功能 / Professional features | 订阅用户可使用批量查询、API 和更高用量 / Subscribers can use batch queries, API access, and higher usage allowances |
 
 免费与订阅用户使用相同的数据来源和评分标准。
