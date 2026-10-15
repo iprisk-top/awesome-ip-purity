@@ -20,7 +20,6 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
   - [📋 目录 / Table of Contents](#-目录--table-of-contents)
   - [🔍 检测工具 / Detection Tools](#-检测工具--detection-tools)
   - [📊 使用方式 / Ways to Use](#-使用方式--ways-to-use)
-  - [🛡️ 代理方案参考 / Proxy Provider Guide](#️-代理方案参考--proxy-provider-guide)
   - [🏷️ 常见概念解释 / Key Concepts](#️-常见概念解释--key-concepts)
   - [🏷️ 嵌入徽章 / Embed Badge](#️-嵌入徽章--embed-badge)
   - [🌐 社区与链接 / Community \& Links](#-社区与链接--community--links)
@@ -58,16 +57,6 @@ Curated list of IP reputation, proxy detection, DNS leak, and browser fingerprin
 免费与订阅用户使用相同的数据来源和评分标准。
 
 Free and subscribed users receive the same data sources and scoring standards.
-
----
-
-## 🛡️ 代理方案参考 / Proxy Provider Guide
-
-IP 不够稳定或风险信号较多时，可以按 AI 服务、跨境电商、TikTok / 社媒运营、自建节点等场景比较住宅代理、住宅 IP VPS、固定 IP 和浏览器环境工具。采购后建议把交付 IP 放到 IPRisk 重新检测，核对网络类型、代理信号、黑名单和来源明细。
-
-When an IP is unstable or returns multiple risk signals, compare residential proxies, residential IP VPS, fixed IPs, and browser-environment tools by use case: AI services, cross-border e-commerce, TikTok/social media, or self-hosted routes. After purchase, test delivered IPs with IPRisk to review network type, proxy signals, blacklists, and source details.
-
-👉 [代理方案参考 / Proxy Provider Guide](https://iprisk.top/proxy)
 
 ---
 
@@ -110,7 +99,7 @@ When an IP is unstable or returns multiple risk signals, compare residential pro
 - 🌐 [IPRisk.top 官网](https://iprisk.top)
 - 🔍 [浏览器环境检测](https://iprisk.top/env)
 - 🧩 [IPRisk Sentinel 浏览器插件](https://iprisk.top/extension)
-- 🛡️ [代理方案参考 / Proxy Guide](https://iprisk.top/proxy)
+- 📣 [广告投放与品牌合作 / Advertise](https://iprisk.top/advertise)
 - 📊 [批量查询](https://iprisk.top/batch)
 - 🔌 [API 文档](https://iprisk.top/api)
 - 🖥️ [控制台](https://iprisk.top/console)
